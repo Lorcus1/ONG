@@ -1,13 +1,9 @@
 .navbar{
     height: 100%;
-    width: 16%;
+    width: 20%;
     position: fixed;
-    top: 0;
-    left: 0;
     padding-top: 20px;
     background-color: #2F2E2E;
-    z-index: 1;
-    overflow-x: hidden; 
 }
 
 .navbar a{
@@ -23,5 +19,54 @@
 
 .navbar a:hover{
     background-color: green;
-    color:black
+    color:black;
+    display: block;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color:white;
+    background-color:  #2F2E2E;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    display: block;
+}
+
+.w{
+    height: 25%;
+    width: auto;
+    background-color:#DAF7A6;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.y{
+    height: 25%;
+    width: auto;
+    background-color:#FFC300;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.x{
+    height: 25%;
+    width: auto;
+    background-color:#FF5733 ;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.z{
+    height: 25%;
+    width: auto;
+    background-color:#C70039;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+div{
+    width:100%;
+    margin-left: 20%;
+    margin-right:2% ;
+    display: block;
+
 }
