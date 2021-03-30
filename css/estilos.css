@@ -1,7 +1,7 @@
 .navbar{
     height: 100%;
     width: 20%;
-    position: fixed;
+    position:absolute;
     padding-top: 20px;
     background-color: #2F2E2E;
 }
@@ -18,55 +18,82 @@
 }
 
 .navbar a:hover{
-    background-color: green;
-    color:black;
+    background-color:#3F3C3C;
+    opacity: 90%;
+    color:white;
+    font-weight: bold;
     display: block;
+    width: 89%;
 }
 
 body{
-    margin: 0;
+    margin:0;
     font-family: sans-serif;
     color:white;
     background-color:  #2F2E2E;
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
     display: block;
+    min-width:600px;
+    min-height: 800px;
+    max-width:1440px;
+    max-height: 1920px;
 }
 
 .w{
     height: 25%;
     width: auto;
     background-color:#DAF7A6;
-    padding: 20px;
-    margin-bottom: 0;
+    display: block;
+    padding: 1%;
+    overflow: hidden;
+    margin-bottom: 0%;
 }
 .y{
     height: 25%;
     width: auto;
     background-color:#FFC300;
-    padding: 20px;
-    margin-bottom: 0;
+    display: block;
+    padding: 1%;
+    overflow: hidden;
+    margin-bottom: 0%;
 }
 .x{
     height: 25%;
     width: auto;
     background-color:#FF5733 ;
-    padding: 20px;
-    margin-bottom: 0;
+    display: block;
+    padding: 1%;
+    overflow: hidden;
+    margin-bottom: 0%;
 }
 .z{
     height: 25%;
     width: auto;
     background-color:#C70039;
-    padding: 20px;
-    margin-bottom: 0;
+    display: block;
+    padding: 1%;
+    overflow: hidden;
+    margin-bottom: 0%;
 }
 
 div{
     width:100%;
     margin-left: 20%;
-    margin-right:2% ;
+    margin-right: 10px;
     display: block;
+
+}
+h3{
+    text-align: center;
+}
+
+.cont{
+    margin-right: auto;
+    height: 100%;
+    background-color: antiquewhite;
+    display: block;
+    color: black;
+    padding: 2%;
 
 }
