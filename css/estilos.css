@@ -39,6 +39,7 @@ footer{
   height: 100%;
   color: black;
   font-size: 25px;
+  opacity: 50%;
 }
 
 footer a{
