@@ -54,23 +54,53 @@
 <br>
 <form class="row g-3 container col-md-8" style="margin:auto;font-size: 20px; border: rgb(196, 192, 192) solid;border-width: 1px; padding: 30px">
   <div class="col-md-6">
-    <label  class="form-label">Nombre</label>
-    <input type="text" class="form-control" >
+    <label  class="form-label">Nombres</label>
+    <input type="text" class="form-control" placeholder="Ingrese nombres" required>
   </div>
   <div class="col-md-6">
-    <label  class="form-label">Apellido</label>
-    <input type="text" class="form-control" >
+    <label  class="form-label">Apellidos</label>
+    <input type="text" class="form-control" placeholder="Ingrese apellidos" required>
   </div>
   <div class="col-12">
     <label for="inputEmail4" class="form-label">Correo Electrónico</label>
-    <input type="email" class="form-control"  placeholder="Don pepe y los globos #1234">
+    <input type="email" class="form-control"  placeholder="Ingrese su correo electrónico" required>
   </div>
-  <div class="mb-3 col-12">
-    <label  class="form-label">¿De que nos quieres hablar?</label>
-    <textarea class="form-control" rows="3"></textarea>
-  </div>
+  <section>
   <div class="col-md-12">
+    <label  class="form-label">Ingrese RUT/Pasaporte</label>
+    <input type="text" class="form-control" placeholder="Ingrese RUT/Pasaporte" required>
+  </div>
+  <div class="form-check col-md-5 " style="display: inline-flex;">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+    <label class="form-check-label" for="flexRadioDefault1">
+      RUT
+    </label>
+  </div>
+  <div class="form-check col-md-5" style="display: inline-flex;">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+    <label class="form-check-label" for="flexRadioDefault2">
+      Pasaporte
+    </label>
+  </div>
+</section>
+  <div class="col-md-4" >
+    <label  class="form-label">Número de teléfono (Opcional)</label>
+    <input type="text" class="form-control" placeholder="Ingrese número telefónico" >
+  </div>
+  <div class="col-md-5" >
+    <label  class="form-label">Ciudad de residencia</label>
+    <input type="text" class="form-control" placeholder="Ingrese ciudad de residencia" width="100%" required>
+  </div>
+
+  <div class="mb-3 col-12">
+    <label  class="form-label">Señala en lo que te gustaria participar en la ONG</label>
+    <textarea class="form-control" rows="5"></textarea>
+  </div>
+  <div class="col-md-6">
     <button type="submit" class="btn btn-primary" style="width: 100%; background-color: rgb(5, 150, 5); border: none;">Enviar </button>
+  </div>
+  <div class="col-md-6">
+    <button type="reset" class="btn btn-secondary" style="width: 100%; border: none;">Limpiar formulario </button>
   </div>
 </form>
 
